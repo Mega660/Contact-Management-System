@@ -1,0 +1,85 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Body Styling */
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg, #ce028a, #435f00);
+}
+
+/* Contact Section */
+.contact {
+    width: 100%;
+    max-width: 500px;
+    padding: 20px;
+}
+
+/* Form Card */
+form {
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
+}
+
+/* Input Boxes */
+.inputbox {
+    margin-bottom: 18px;
+}
+
+.inputfield input,
+.textarea textarea {
+    width: 100%;
+    padding: 12px 14px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 14px;
+    outline: none;
+    transition: 0.3s ease;
+}
+
+/* Focus Effect */
+.inputfield input:focus,
+.textarea textarea:focus {
+    border-color: #96982a;
+    box-shadow: 0 0 0 3px rgba(42, 82, 152, 0.1);
+}
+
+/* Textarea */
+.textarea textarea {
+    resize: none;
+}
+
+/* Button */
+button {
+    width: 100%;
+    margin-top: 15px;
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    background: #2a5298;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+button:hover {
+    background: #1e3c72;
+}
+
+/* Responsive */
+@media (max-width: 500px) {
+    form {
+        padding: 20px;
+    }
+}
